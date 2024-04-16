@@ -23,6 +23,8 @@ public class Principal {
 		
 		numeros.forEach((n)-> resultadoPrimos.add(Algoritmos.esPrimo(n)));
 		
+		
+		
 	}
 
 }

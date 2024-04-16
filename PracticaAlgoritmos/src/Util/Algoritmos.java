@@ -31,6 +31,26 @@ public abstract class Algoritmos {
 		return aux;
 	}
 	
+	/**
+	 * Devuelve el factorial del numero dado, int
+	 * 
+	 * @param numero del que queremos saber su factorial
+	 * @return factorial del numero dado
+	 */
+	
+	public static int factorial(int numero) {
+		int aux = 1;
+		
+		if(numero==0) {
+			return 0;
+		} else {
+			for (int i = 1; i <= numero; i++) {
+				aux *= i;
+			}
+		}
+		
+		return aux;
+	}
 	
 	
 }

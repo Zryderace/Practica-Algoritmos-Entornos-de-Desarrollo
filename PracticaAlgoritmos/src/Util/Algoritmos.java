@@ -52,5 +52,26 @@ public abstract class Algoritmos {
 		return aux;
 	}
 	
+	/**
+	 * Devuelve true si es primo, devuelve false si no lo es, boolean
+	 * 
+	 * @param numero que queremos saber si es primo o no
+	 * @return true si es primo, false si no es primo
+	 */
+	
+	public static boolean esPrimo(int numero) {
+
+		if(numero<=1) {
+			return true;
+		} else {
+			for (int i = 2; i < numero; i++) {
+				if(numero%i==0) {
+					return false;
+				}
+			}
+		}
+		return true;
+	}
+	
 	
 }

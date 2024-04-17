@@ -21,7 +21,7 @@ public abstract class Algoritmos {
 			return 1;
 		} else {
 			
-			for (int i = 0; i < numero; i++) {
+			for (int i = 1; i < numero; i++) {
 				aux = aux0 + aux1;
 				aux0 = aux1;
 				aux1 = aux;

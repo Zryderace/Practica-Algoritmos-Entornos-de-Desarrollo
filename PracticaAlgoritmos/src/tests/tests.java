@@ -1,16 +1,12 @@
 package tests;
 
 import static org.junit.jupiter.api.Assertions.*;
-
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
-
 import Util.Algoritmos;
 
 class tests {
-	
-	//Ejemplo de tests
-	
+
 	@BeforeAll
 	static void setUp() {
 	}
@@ -35,19 +31,4 @@ class tests {
 		boolean numObtenido = Algoritmos.esPrimo(23);
 		assertEquals(numEsperado,numObtenido);
 	}
-	
-	/*
-	 * @BeforeAll
-	static void setUp() {
-		
-	}
-	
-	@Test
-	void Sumatorio() {
-		int numeroEsperado = 10;
-		int numeroObtenido = Algoritmos.sumatorio(4);
-		assertEquals(numeroEsperado,numeroObtenido);
-	}
-	 */
-
 }
